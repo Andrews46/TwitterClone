@@ -1,0 +1,43 @@
+.MessageItem {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  padding: 12px;
+}
+
+.MessageItem img {
+  width: 50px;
+  height: 50px;
+}
+
+.MessageItem__photo {
+  background-color: #01b5f180;
+  border-radius: 100%;
+}
+
+.MessageItem__content {
+  font-size: 0.9rem;
+  padding: 0 12px;
+}
+
+.user {
+  font-weight: bold;
+  display: flex;
+}
+
+.email {
+  color: rgb(172, 172, 172);
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.MessageItem__content--icons {
+  display: flex;
+  align-items: flex-end;
+}
+
+.MessageItem__content--icons img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
