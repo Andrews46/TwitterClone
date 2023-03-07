@@ -15,16 +15,15 @@ const Header = () => {
         <FiMenu className="Header_Hamburger" onClick={hamburgerTrigger} />
         <HamburgerMenu showMenu={showMenu} />
         <h2>Home</h2>
-        <img
-          className="iconSparkling"
-          src="https://img.icons8.com/material-rounded/256/sparkling.png"
-          alt="sparkling"
-        />
-        <img
-          className="LogoTwitter"
-          src="https://img.icons8.com/color/256/twitter--v1.png"
-          alt="iconTwitter"
-        />
+        <div className="HeaderSpark">
+          <h4>Per te</h4>
+          <h4>Seguiti</h4>
+          <img
+            className="iconSparkling"
+            src="https://img.icons8.com/material-rounded/256/sparkling.png"
+            alt="sparkling"
+          />
+        </div>
       </div>
       <div className="Header_down">
         <img
@@ -37,12 +36,14 @@ const Header = () => {
           type="text"
           placeholder="What's happening?"
         />
-        <img src="https://img.icons8.com/fluency/256/image.png" alt="image" />
-        <img src="https://img.icons8.com/arcade/256/gif.png" alt="gif" />
-        <img
-          src="https://img.icons8.com/fluency/256/combo-chart.png"
-          alt="graph"
-        />
+        <div className="HeaderImage">
+          <img src="https://img.icons8.com/fluency/256/image.png" alt="image" />
+          <img src="https://img.icons8.com/arcade/256/gif.png" alt="gif" />
+          <img
+            src="https://img.icons8.com/fluency/256/combo-chart.png"
+            alt="graph"
+          />
+        </div>
       </div>
     </div>
   );

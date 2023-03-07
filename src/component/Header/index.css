@@ -2,15 +2,32 @@
   display: flex;
   flex-direction: column;
 }
+h2 {
+  padding: 10px;
+}
 .Header_Hamburger {
+  padding: 10px;
   color: #04b5f1;
   font-size: 30px;
 }
-.Header img {
+/* .Header img {
   width: 32px;
   height: 32px;
   cursor: pointer;
+} */
+.iconSparkling {
+  display: flex;
+  width: 32px;
+  height: 32px;
 }
+.HeaderSpark {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 1px solid lightgray;
+}
+
 .Header__up {
   display: flex;
   justify-content: space-between;
@@ -33,15 +50,23 @@
   width: 80%;
   height: 28px;
   border: 0;
-  background-color: #eaeff1;
+  background-color: whitesmoke;
   border-radius: 24px;
   outline: none;
+  position: relative;
+  top: -12px;
 }
 .Header_profile {
+  margin: 5px;
   width: 35px;
   height: 35px;
   border: 1px solid;
   border-radius: 100%;
+}
+.HeaderImage {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
 }
 @media screen and (min-width: 800px) {
   .Header_hamburger {

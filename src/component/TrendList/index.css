@@ -1,18 +1,21 @@
 .container_TrendList {
   padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   flex-direction: column;
-  align-items: start;
-  width: 400px;
+  width: 350px;
   gap: 20px;
   display: none;
 }
 .searchIn {
-  border-radius: 12px;
-  height: 30px;
+  padding: 10px;
+  border-radius: 26px;
+  height: 25px;
   background-color: #eaeff1;
 }
 .contain_Trend {
   padding: 10px;
+  border-radius: 14px;
   height: 100vh;
   border: 1px solid lightgray;
   background-color: #eaeff1;
