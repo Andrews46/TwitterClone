@@ -21,19 +21,16 @@
 
 .user {
   font-weight: bold;
-  display: flex;
 }
 
 .email {
   color: rgb(172, 172, 172);
   font-size: 0.9rem;
-  display: flex;
-  flex-direction: row-reverse;
 }
 
 .MessageItem__content--icons {
   display: flex;
-  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .MessageItem__content--icons img {
