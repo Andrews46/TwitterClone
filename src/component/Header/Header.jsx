@@ -16,8 +16,8 @@ const Header = () => {
         <HamburgerMenu showMenu={showMenu} />
         <h2>Home</h2>
         <div className="HeaderSpark">
-          <h4>Per te</h4>
-          <h4>Seguiti</h4>
+          <h4>For you</h4>
+          <h4>Followed</h4>
           <img
             className="iconSparkling"
             src="https://img.icons8.com/material-rounded/256/sparkling.png"

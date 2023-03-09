@@ -19,3 +19,8 @@
 .Footer img:hover {
   background-color: #01b5f1;
 }
+@media screen and (min-width: 700px) {
+  .Footer {
+    display: none;
+  }
+}
