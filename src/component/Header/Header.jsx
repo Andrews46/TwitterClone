@@ -3,11 +3,14 @@ import { FiMenu } from "react-icons/fi";
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 import "./index.css";
 
-const Header = () => {
+const Header = (setVisualModal) => {
   const [showMenu, setShowMenu] = useState(false);
 
   const hamburgerTrigger = () => {
     setShowMenu(!showMenu);
+  };
+  const visualModalClick = () => {
+    setVisualModal(true);
   };
   return (
     <div className="Header">
@@ -16,13 +19,12 @@ const Header = () => {
         <HamburgerMenu showMenu={showMenu} />
         <h2>Home</h2>
         <div className="HeaderSpark">
-          <h4>For you</h4>
-          <h4>Followed</h4>
-          <img
-            className="iconSparkling"
-            src="https://img.icons8.com/material-rounded/256/sparkling.png"
-            alt="sparkling"
-          />
+          <div className="subTitles1">
+            <h3>For you</h3>
+          </div>
+          <div className="subTitles2">
+            <h3>Followed</h3>
+          </div>
         </div>
       </div>
       <div className="Header_down">
@@ -43,6 +45,9 @@ const Header = () => {
             src="https://img.icons8.com/fluency/256/combo-chart.png"
             alt="graph"
           />
+          <button onClick={visualModalClick} className="button_tweet">
+            Tweet
+          </button>
         </div>
       </div>
     </div>

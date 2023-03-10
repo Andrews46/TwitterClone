@@ -2,6 +2,10 @@
   border-bottom: 1px solid lightgrey;
   padding: 12px;
 }
+.MessageItem:hover {
+  background-color: lightgray;
+  transition: all 0.35s;
+}
 
 .MessageItem img {
   width: 50px;
@@ -36,4 +40,40 @@
   width: 20px;
   height: 20px;
   cursor: pointer;
+}
+.iconChat {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+.iconChat:hover {
+  background-color: rgb(57, 190, 251);
+  transition: all 0.35s;
+}
+.iconArrow {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+.iconArrow:hover {
+  background-color: rgba(18, 235, 141, 0.793);
+  transition: all 0.35s;
+}
+.iconHeart {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+.iconHeart:hover {
+  background-color: red;
+  transition: all 0.35;
+}
+.iconUpload {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+.iconUpload:hover {
+  background-color: rgb(69, 194, 252);
+  transition: all 0.35s;
 }

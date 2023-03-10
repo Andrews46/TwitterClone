@@ -10,16 +10,7 @@ h2 {
   color: #04b5f1;
   font-size: 30px;
 }
-/* .Header img {
-  width: 32px;
-  height: 32px;
-  cursor: pointer;
-} */
-.iconSparkling {
-  display: flex;
-  width: 32px;
-  height: 32px;
-}
+
 .HeaderSpark {
   padding: 10px;
   display: flex;
@@ -64,10 +55,23 @@ h2 {
   border-radius: 100%;
 }
 .HeaderImage {
-  width: 32px;
-  height: 32px;
-  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  padding: 5px;
+  gap: 20px;
 }
+.button_tweet {
+  height: 35px;
+  border-radius: 12px;
+  background-color: #04b5f1;
+  color: whitesmoke;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  left: 500px;
+}
+
 @media screen and (min-width: 800px) {
   .Header_hamburger {
     display: none;

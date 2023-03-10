@@ -1,0 +1,21 @@
+.Modal {
+  position: fixed;
+  top: 10px;
+  right: -100px;
+  background-color: whitesmoke;
+  border: 2px solid blue;
+  width: 37vw;
+  height: 500px;
+}
+.Modal_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.input_submit {
+  border: none;
+  background-color: whitesmoke;
+  text-align: center;
+}
