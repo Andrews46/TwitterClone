@@ -1,17 +1,20 @@
 import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
+
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 import "./index.css";
 
-const Header = (setVisualModal) => {
-  const [showMenu, setShowMenu] = useState(false);
+const Header = ({ setVisualModal }) => {
+  const [showMenu, setShowMenu] = useState(true);
 
   const hamburgerTrigger = () => {
     setShowMenu(!showMenu);
   };
+
   const visualModalClick = () => {
     setVisualModal(true);
   };
+
   return (
     <div className="Header">
       <div className="Header_up">
@@ -40,13 +43,15 @@ const Header = (setVisualModal) => {
         />
         <div className="HeaderImage">
           <img src="https://img.icons8.com/fluency/256/image.png" alt="image" />
+
           <img src="https://img.icons8.com/arcade/256/gif.png" alt="gif" />
           <img
             src="https://img.icons8.com/fluency/256/combo-chart.png"
             alt="graph"
           />
-          <button onClick={visualModalClick} className="button_tweet">
-            Tweet
+
+          <button onClick={visualModalClick} className="button_Post">
+            Post
           </button>
         </div>
       </div>

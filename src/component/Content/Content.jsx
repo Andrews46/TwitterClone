@@ -6,11 +6,11 @@ import MessageList from "../MessageList";
 import Footer from "../Footer";
 
 const Content = () => {
-  const [visualModal, setVisualModal] = useState(false);
+  const [visualModal, setVisualModal] = useState(true);
   return (
     <div className="Content">
-      <Header setVisualModal={setVisualModal} />
       {visualModal && <Modal setVisualModal={setVisualModal} />}
+      <Header setVisualModal={setVisualModal} />
       <MessageList />
       <Footer />
     </div>

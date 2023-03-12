@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 h2 {
-  padding: 10px;
+  padding-left: 12px;
 }
 .Header_Hamburger {
   padding: 10px;
@@ -12,7 +12,6 @@ h2 {
 }
 
 .HeaderSpark {
-  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -46,6 +45,7 @@ h2 {
   outline: none;
   position: relative;
   top: -12px;
+  z-index: -1;
 }
 .Header_profile {
   margin: 5px;
@@ -61,15 +61,16 @@ h2 {
   padding: 5px;
   gap: 20px;
 }
-.button_tweet {
+.button_Post {
   height: 35px;
   border-radius: 12px;
-  background-color: #04b5f1;
+  background-color: #04b6f193;
   color: whitesmoke;
   border: 0;
   cursor: pointer;
-  position: relative;
-  left: 500px;
+}
+.button_Post:hover {
+  background-color: #04b6f1;
 }
 
 @media screen and (min-width: 800px) {

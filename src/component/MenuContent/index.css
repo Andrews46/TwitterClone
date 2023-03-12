@@ -1,5 +1,4 @@
 ul {
-  padding: 0 30px;
   list-style-type: none;
 }
 
@@ -14,10 +13,41 @@ ul li:hover {
   color: #01b5f1;
 }
 
-ul li img {
-  width: 32px;
-  height: px;
+.iconLogo {
+  width: 40px;
+  height: 40px;
 }
 ul li img:hover {
   color: #01b5f1;
+}
+p {
+  font-size: 20px;
+}
+.iconProfile {
+  width: 32px;
+  height: 32px;
+}
+.iconNotification {
+  width: 32px;
+  height: 32px;
+}
+.iconMessage {
+  width: 32px;
+  height: 32px;
+}
+.iconHome {
+  width: 32px;
+  height: 32px;
+}
+.iconEplore {
+  width: 32px;
+  height: 32px;
+}
+.iconBookmarks {
+  width: 32px;
+  height: 32px;
+}
+.iconDot {
+  width: 32px;
+  height: 32px;
 }

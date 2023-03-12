@@ -1,4 +1,8 @@
 import { useState, useEffect } from "react";
+import { AiOutlineHeart } from "react-icons/ai";
+import { BsUpload } from "react-icons/bs";
+import { RiArrowLeftRightFill } from "react-icons/ri";
+import { BiMessageRounded } from "react-icons/bi";
 import "./index.css";
 
 const MessageItem = ({ messageData }) => {
@@ -34,35 +38,22 @@ const MessageItem = ({ messageData }) => {
       <div className="MessageItem__content--icons">
         <div className="iconChat">
           <span>{elementChat}</span>
-          <img
-            onClick={onIncrementChat}
-            src="https://img.icons8.com/external-those-icons-lineal-those-icons/256/external-Chat-Bubble-messages-and-chat-those-icons-lineal-those-icons-10.png"
-            alt="chat"
-          />
+          <BiMessageRounded onClick={onIncrementChat} />
         </div>
         <div className="iconArrow">
           <span>{elementArrow}</span>
-          <img
+          <RiArrowLeftRightFill
+            className="iconArrow"
             onClick={onIncrementArrow}
-            src="https://img.icons8.com/material-sharp/256/sorting-arrows-horizontal.png"
-            alt="arrow"
           />
         </div>
         <div className="iconHeart">
           <span>{elementHeart}</span>
-          <img
-            onClick={onIncrementHeart}
-            src="https://img.icons8.com/ios-glyphs/256/hearts.png"
-            alt="heart"
-          />
+          <AiOutlineHeart className="iconHeart" onClick={onIncrementHeart} />
         </div>
         <div className="iconUpload">
           <span>{elementUpload}</span>
-          <img
-            onClick={onIncrementUpload}
-            src="https://img.icons8.com/ios/256/upload.png"
-            alt="upload"
-          />
+          <BsUpload onClick={onIncrementUpload} />
         </div>
       </div>
     </div>

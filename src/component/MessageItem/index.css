@@ -45,35 +45,39 @@
   display: flex;
   flex-direction: row-reverse;
   gap: 5px;
+  cursor: pointer;
 }
 .iconChat:hover {
-  background-color: rgb(57, 190, 251);
+  color: rgb(57, 190, 251);
   transition: all 0.35s;
 }
 .iconArrow {
   display: flex;
   flex-direction: row-reverse;
   gap: 5px;
+  cursor: pointer;
 }
 .iconArrow:hover {
-  background-color: rgba(18, 235, 141, 0.793);
+  color: rgba(18, 235, 141, 0.793);
   transition: all 0.35s;
 }
 .iconHeart {
   display: flex;
   flex-direction: row-reverse;
   gap: 5px;
+  cursor: pointer;
 }
 .iconHeart:hover {
-  background-color: red;
+  color: red;
   transition: all 0.35;
 }
 .iconUpload {
   display: flex;
   flex-direction: row-reverse;
   gap: 5px;
+  cursor: pointer;
 }
 .iconUpload:hover {
-  background-color: rgb(69, 194, 252);
+  color: rgb(69, 194, 252);
   transition: all 0.35s;
 }
