@@ -6,7 +6,7 @@ import MessageList from "../MessageList";
 import Footer from "../Footer";
 
 const Content = () => {
-  const [visualModal, setVisualModal] = useState(true);
+  const [visualModal, setVisualModal] = useState(false);
   return (
     <div className="Content">
       {visualModal && <Modal setVisualModal={setVisualModal} />}
