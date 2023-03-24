@@ -5,7 +5,7 @@ import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 import "./index.css";
 
 const Header = ({ setVisualModal }) => {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   const hamburgerTrigger = () => {
     setShowMenu(!showMenu);
