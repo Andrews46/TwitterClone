@@ -1,15 +1,16 @@
 .Modal {
-  position: fixed;
+  position: absolute;
   top: 10px;
-  right: 4px;
+  right: 13px;
   display: flex;
   justify-content: center;
   background-color: whitesmoke;
-  border-radius: 8px;
+  border-radius: 12px;
   box-shadow: 4px 4px 4px rgba(114, 113, 113, 0.991);
-  width: 37vw;
+
   z-index: 1;
-  height: 500px;
+  height: 400px;
+  width: 210px;
   transition: all 0.35s;
 }
 .Modal_overlay {
