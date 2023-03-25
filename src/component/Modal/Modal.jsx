@@ -29,7 +29,7 @@ const Modal = ({ setVisualModal }) => {
           <button className="closeModal" onclick={visualModalClick}>
             X
           </button>
-          <h2>Scrivi il tuo post</h2>
+          <h3>Scrivi il tuo post</h3>
           <input
             value={titleInput}
             onChange={(e) => setTitleInput(e.target.value)}
